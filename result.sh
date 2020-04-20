@@ -1,4 +1,3 @@
-
 dos2unix POSCAR
 cp POSCAR aa
 #get the lattice constance
@@ -49,7 +48,7 @@ do
 	fi
 	sed -i "${j}s/$xx/$newx/" aa
 	sed -i "${j}s/$yy/$newy/" aa
-	sed -i "${j}s/$zz/$newz/" aa    
+	sed -i "${j}s/$zz/$newz/" aa
 done
 
 sed -i "s/Direct/Cartesian/" aa
